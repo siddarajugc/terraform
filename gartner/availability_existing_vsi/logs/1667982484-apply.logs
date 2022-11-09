@@ -1,0 +1,91 @@
+data.local_file.run_scripts: Reading...
+data.local_file.install_packages: Reading...
+data.local_file.install_packages: Read complete after 0s [id=9eda80691aaf1055590932f3ba6a6fd36fc3b6bd]
+data.local_file.run_scripts: Read complete after 0s [id=ed558b5241ae94b0e4d9c38d3c70432433a473b4]
+data.cloudinit_config.cloud-init-config: Reading...
+data.cloudinit_config.cloud-init-config: Read complete after 0s [id=1678398320]
+data.ibm_is_ssh_key.sshkey: Reading...
+data.ibm_is_ssh_key.sshkey: Read complete after 7s [id=r018-87e9ff14-ac80-4864-813b-69a0630da158]
+
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # ibm_is_instance_volume_attachment.example[0] will be created
+  + resource "ibm_is_instance_volume_attachment" "example" {
+      + capacity                           = (known after apply)
+      + delete_volume_on_attachment_delete = false
+      + delete_volume_on_instance_delete   = false
+      + device                             = (known after apply)
+      + encryption_key                     = (known after apply)
+      + href                               = (known after apply)
+      + id                                 = (known after apply)
+      + instance                           = "0797_0c8e7645-00d6-4b53-bea7-6a88f645328a"
+      + iops                               = (known after apply)
+      + name                               = "volume-attach-0"
+      + profile                            = (known after apply)
+      + snapshot                           = (known after apply)
+      + status                             = (known after apply)
+      + type                               = (known after apply)
+      + volume                             = "r018-a945dfc9-9eaf-4169-a20c-c72da3620c94"
+      + volume_attachment_id               = (known after apply)
+      + volume_crn                         = (known after apply)
+      + volume_deleted                     = (known after apply)
+      + volume_href                        = (known after apply)
+      + volume_name                        = (known after apply)
+    }
+
+  # ibm_is_instance_volume_attachment.example[1] will be created
+  + resource "ibm_is_instance_volume_attachment" "example" {
+      + capacity                           = (known after apply)
+      + delete_volume_on_attachment_delete = false
+      + delete_volume_on_instance_delete   = false
+      + device                             = (known after apply)
+      + encryption_key                     = (known after apply)
+      + href                               = (known after apply)
+      + id                                 = (known after apply)
+      + instance                           = "0797_0c8e7645-00d6-4b53-bea7-6a88f645328a"
+      + iops                               = (known after apply)
+      + name                               = "volume-attach-1"
+      + profile                            = (known after apply)
+      + snapshot                           = (known after apply)
+      + status                             = (known after apply)
+      + type                               = (known after apply)
+      + volume                             = "r018-81498137-5d6f-4343-a607-717fcfc3d9ef"
+      + volume_attachment_id               = (known after apply)
+      + volume_crn                         = (known after apply)
+      + volume_deleted                     = (known after apply)
+      + volume_href                        = (known after apply)
+      + volume_name                        = (known after apply)
+    }
+
+  # random_string.rand_name will be created
+  + resource "random_string" "rand_name" {
+      + id          = (known after apply)
+      + length      = 8
+      + lower       = true
+      + min_lower   = 0
+      + min_numeric = 0
+      + min_special = 0
+      + min_upper   = 0
+      + number      = true
+      + numeric     = true
+      + result      = (known after apply)
+      + special     = false
+      + upper       = false
+    }
+
+Plan: 3 to add, 0 to change, 0 to destroy.
+random_string.rand_name: Creating...
+random_string.rand_name: Creation complete after 0s [id=mwo93kuf]
+ibm_is_instance_volume_attachment.example[0]: Creating...
+ibm_is_instance_volume_attachment.example[1]: Creating...
+ibm_is_instance_volume_attachment.example[0]: Still creating... [10s elapsed]
+ibm_is_instance_volume_attachment.example[1]: Still creating... [10s elapsed]
+ibm_is_instance_volume_attachment.example[0]: Creation complete after 14s [id=0797_0c8e7645-00d6-4b53-bea7-6a88f645328a/0797-37c8dac4-9942-4a0b-b12b-f34a7c3c4de1]
+ibm_is_instance_volume_attachment.example[1]: Still creating... [20s elapsed]
+ibm_is_instance_volume_attachment.example[1]: Creation complete after 26s [id=0797_0c8e7645-00d6-4b53-bea7-6a88f645328a/0797-c451b64f-adf3-4c9f-ad68-b1011c848547]
+
+Apply complete! Resources: 3 added, 0 changed, 0 destroyed.

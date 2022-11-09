@@ -1,0 +1,23 @@
+uuid="replaced at run time"
+IBMCLOUD_ACCESS_KEY_ID="<COS access key>"
+IBMCLOUD_SECRET_ACCESS_KEY="<COS secrete key>"
+destination="s3.us-west.cloud-object-storage.test.appdomain.cloud"
+api_key="<Account api key>"
+region="us-south"
+zone3="us-south-3"
+vpc_id="r134-a79fe80a-4b7b-4367-88b0-c2063ef99c59"
+subnet3_id="230g-993f0d63-fd65-4a77-8f46-8b13f01874e4"
+image_id="r134-c3c0bb85-df1e-4c6d-acb9-97eeee9b27c7"
+key_name="salma-ssh-laptop"
+profile="bx2-8x32"
+group=1
+ordinal=6
+instance_count=1
+instance_name="sentinel"
+sku="cx2-2x4"
+service="cpu"
+test_provision="control-provision"
+test_terminate="control-terminate"
+test_data="data"
+name_prefix="acadia-test"
+

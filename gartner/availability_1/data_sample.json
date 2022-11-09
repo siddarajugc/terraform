@@ -1,0 +1,202 @@
+{
+  "metric": "cpu",
+  "mzone": "tok_g5_prod_mzr",
+  "region": "jp-tok",
+  "region_": "jp_tok",
+  "profile": "cx2-2x4",
+  "test_date": "2021-04-13 14:41:01Z",
+  "group": 1,
+  "uuid": "1618324860",
+  "jenkins_build": null,
+  "jenkins_build_url": null,
+  "sample_uri": "cpu-jp-tok-cx2-2x4-1-1618324860",
+  "timestamp": 1618324861,
+  "test_starttime": 1618324861,
+  "test_endtime": 1618325025,
+  "total_provision_time": 85,
+  "total_terminate_time": 55,
+  "total_elapsed_time": 164,
+  "elapsed_time_fail": 0,
+  "tot_successes": 18,
+  "tot_fails": 0,
+  "tot_provision_successes": 6,
+  "tot_provision_fails": 0,
+  "tot_terminate_successes": 6,
+  "tot_terminate_fails": 0,
+  "tot_vm_successes": 6,
+  "tot_vm_fails": 0,
+  "zone1": {
+    "successes": 2,
+    "fails": 0
+  },
+  "zone2": {
+    "successes": 2,
+    "fails": 0
+  },
+  "zone3": {
+    "successes": 2,
+    "fails": 0
+  },
+  "1": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 66,
+      "endtime": 1618324927,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone1",
+      "starttime": 1618324931,
+      "elapsedtime": 10,
+      "endtime": 1618324941,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618324987,
+      "elapsedtime": 16,
+      "endtime": 1618325003,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "2": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 85,
+      "endtime": 1618324946,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone2",
+      "starttime": 1618324922,
+      "elapsedtime": 10,
+      "endtime": 1618324932,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618325006,
+      "elapsedtime": 19,
+      "endtime": 1618325025,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "3": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 62,
+      "endtime": 1618324923,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone3",
+      "starttime": 1618324931,
+      "elapsedtime": 10,
+      "endtime": 1618324941,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618324983,
+      "elapsedtime": 17,
+      "endtime": 1618325000,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "4": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 69,
+      "endtime": 1618324930,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone1",
+      "starttime": 1618324930,
+      "elapsedtime": 10,
+      "endtime": 1618324940,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618324990,
+      "elapsedtime": 18,
+      "endtime": 1618325008,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "5": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 50,
+      "endtime": 1618324911,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone2",
+      "starttime": 1618324929,
+      "elapsedtime": 10,
+      "endtime": 1618324939,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618324971,
+      "elapsedtime": 19,
+      "endtime": 1618324990,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  },
+  "6": {
+    "provision": {
+      "starttime": 1618324861,
+      "elapsedtime": 49,
+      "endtime": 1618324910,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "data": {
+      "zone": "zone3",
+      "starttime": 1618324927,
+      "elapsedtime": 10,
+      "endtime": 1618324937,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    },
+    "terminate": {
+      "starttime": 1618324970,
+      "elapsedtime": 19,
+      "endtime": 1618324989,
+      "rval": 0,
+      "success": 1,
+      "fail": 0
+    }
+  }
+}

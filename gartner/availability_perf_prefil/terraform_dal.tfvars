@@ -1,0 +1,13 @@
+uuid="123456"
+group=1
+ordinal=6
+instance_count=1
+sku="cx2-2x4"
+service="cpu"
+instance_name="acadia-prefil-perf"
+test_provision="control-provision-customize"
+test_terminate="control-terminate-customize"
+test_data="perf-vol-prefil"
+name_prefix="acadia-perf-customize"
+volume_name="acadia-perf-vol-customize"
+BUCKET_NAME="cos-acadia-gartner"
